@@ -21,3 +21,19 @@ var p ="5";
 parseInt(p);
 console.log(p);
 
+function max(){
+ var a=prompt("enter your favorite drink");
+    if(a=="coffee"){
+        document.write("you like "+a);
+    }
+    else if(a=="tea"){
+        document.write("why do you like "+a);
+    }
+    else if(a=="soda"){
+        documet.write("hey "+a+" is unhealthy");
+    }
+    else{
+        document.write("what do you drink ");
+    }
+}
+max();
