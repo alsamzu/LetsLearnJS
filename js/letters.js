@@ -11,3 +11,12 @@ function nth(){
    
 }
 nth();
+
+//FINDING THE LAST CHARACTER IN A STRING
+
+function last(){
+    var a= prompt("Enter a String th get the last character");
+     var b = a[a.length-1];
+    document.write("\n The last character is "+b);
+}
+last();
