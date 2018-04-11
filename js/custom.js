@@ -37,17 +37,17 @@
 //    }
 //}
 //max();
-var day="Tuesday";
-switch(day){
-    case "monday":
-        document.write("Yesss");
-        break;
-        case"Tuesday":
-        document.write("nope");
-        break;
-        case"Wednesday":
-        document.write("nopenope");
-        break;
-    default:
-        document.write("no date");
-}
+//var day="Tuesday";
+//switch(day){
+//    case "monday":
+//        document.write("Yesss");
+//        break;
+//        case"Tuesday":
+//        document.write("nope");
+//        break;
+//        case"Wednesday":
+//        document.write("nopenope");
+//        break;
+//    default:
+//        document.write("no date");
+//}
