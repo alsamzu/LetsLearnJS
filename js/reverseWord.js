@@ -1,8 +1,8 @@
 function reverseString() {
-    var sme=prompt("enter a word");
+    var sme=prompt("enter a Sentense");
     revArr = sme.split(" ");
  revArr.reverse();
- sme = revArr.join('');
+ sme = revArr.join(' ');
  document.write(sme);    
  return sme;
    
