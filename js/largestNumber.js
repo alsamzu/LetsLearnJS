@@ -33,11 +33,19 @@
 //maX();
 function d(){
     maxarr=[];
-    for(i=0;i<10;i++){
+    for(i=0;i<3;i++){
         var num=maxarr.push(prompt("Enter a number"));
         
     }
-    document.write(maxarr);
+     var c = 0;
+    for(j=0;j<maxarr.length;j++){
+
+        if(maxarr[j]>c){
+            c = maxarr[j];
+        }
+    }
+    alert("Your Entry is "+maxarr+"\n"+" The Largest number is "+c);
+
     
 }
 d();
