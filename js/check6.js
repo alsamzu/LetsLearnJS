@@ -7,16 +7,17 @@ checkarr=[];
      var check =0;
     for(j=0;j<checkarr.length;j++){
 
-        if(checkarr[j]==6){
+        if(checkarr[j]>6){
            check++;
         }
 
     }
     if(check>=1){
-        alert("Found number 6");
+        alert("Found a number greater than 6");
     }
+
     else{
-        alert("Number 6 not found");
+        alert("All entries are less than 6");
     }
 
 
