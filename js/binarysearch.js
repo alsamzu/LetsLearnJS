@@ -38,3 +38,5 @@ function binarysearch(arr,value){
     }
     return -1;
 }
+var sorted = array.sort(function(a,b) return{a-b});
+var wasItFound = binarysearch(sorted,32);
