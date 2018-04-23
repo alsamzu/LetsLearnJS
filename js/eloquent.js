@@ -45,12 +45,12 @@
 //######
 //#######
 
-function tria(){
-  for(i="#";i.length<8;i+="#") {
-      console.log(i);
-  }
-}
-tria();
+//function tria(){
+//  for(i="#";i.length<8;i+="#") {
+//      console.log(i);
+//  }
+//}
+//tria();
 
 //FIZZBUZZ function
 //function fizzbuzz(){
@@ -74,3 +74,20 @@ tria();
 //
 //}
 //fizzbuzz();
+
+//CHASEBOARD
+var size = 8;
+var board = "";
+for(i=0;i<size;i++){
+    for(j=0;j<size;j++){
+        if((i+j)%2==0){
+          board +=" ";
+        }
+        else{
+            board +="#";
+        }
+    }
+    board +="\n";
+}
+console.log(board);
+
