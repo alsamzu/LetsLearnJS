@@ -45,32 +45,32 @@
 //######
 //#######
 
-//function tria(){
-//  for(i=1;i<=7;i++) {
-//      document.write("# \n");
-//  }
-//}
-//tria();
+function tria(){
+  for(i="#";i.length<8;i+="#") {
+      console.log(i);
+  }
+}
+tria();
 
 //FIZZBUZZ function
-function fizzbuzz(){
-    for(i=1;i<=100;i++){
-
-         if(i%3==0 && i%5==0){
-        document.write("    FizzBuzz ");
-    }
-        else if(i%5==0){
-        document.write(" buzz ");
-    }
-        else if(i%3==0){
-            document.write("fizz");
-        }
-        else{
-            document.write(" "+i+" ");
-        }
-    }
-
-
-
-}
-fizzbuzz();
+//function fizzbuzz(){
+//    for(i=1;i<=100;i++){
+//
+//         if(i%3==0 && i%5==0){
+//        document.write("    FizzBuzz ");
+//    }
+//        else if(i%5==0){
+//        document.write(" buzz ");
+//    }
+//        else if(i%3==0){
+//            document.write("fizz");
+//        }
+//        else{
+//            document.write(" "+i+" ");
+//        }
+//    }
+//
+//
+//
+//}
+//fizzbuzz();
