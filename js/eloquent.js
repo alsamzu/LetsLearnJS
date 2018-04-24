@@ -90,4 +90,15 @@ for(i=0;i<size;i++){
     board +="\n";
 }
 console.log(board);
-
+//Write a function min that takes two arguments and returns their minimum.
+//function mina(x,y){
+////    if(x<y){
+////        return x;
+////    }
+////    else{
+////        return y;
+////    }
+//    Mayh(x,y);
+//}
+//document.write(mina(34,65));
+console.log(Math.min(31,5));
