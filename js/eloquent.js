@@ -102,3 +102,13 @@ console.log(board);
 //}
 //document.write(mina(34,65));
 console.log(Math.min(31,5));
+//Define a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.
+function isEven(x){
+    if((x-2)%2==0){
+        console.log(true);
+    }
+    else{
+        console.log(false);
+    }
+}
+isEven(341);
