@@ -1,5 +1,3 @@
-
-
 function reverseString() {
     var sme=prompt("enter a word");
     revArr = sme.split("");
