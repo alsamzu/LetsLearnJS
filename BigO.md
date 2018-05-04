@@ -1,1 +1,2 @@
 Big O Notation is a way to scale how well a computer algorithm scales as the amount of data involved increases.
+Time Complexity Examples
