@@ -46,6 +46,9 @@ function login(){
            alert("Incorrect Password for user account");
       }
     }
+    else {
+        alert("Incorrect User.Please try again");
+    }
 
 }
 login();
