@@ -1,4 +1,11 @@
+//Link Event
 function greet(){
-    alert("Hi There");
+    alert("I am a link");
 }
 greet();
+
+//Button Event
+function btn(){
+alert("I am a button")
+}
+btn();
