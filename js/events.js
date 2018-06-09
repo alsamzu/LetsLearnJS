@@ -14,3 +14,4 @@ function im(){
     document.write('I am an image!');
 }
 im();
+
