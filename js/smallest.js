@@ -2,7 +2,7 @@
 
   function findSmallestInt(min) {
 
-      smallest=0;
+      smallest=min[0];
   for (i=0; i<min.length; i++){
        if (min[i] < smallest) {
         smallest = min[i];
@@ -11,7 +11,7 @@
   document.write(smallest);
   }
 
-findSmallestInt([23,54,1,34,6,78,6,2]);
+findSmallestInt([23,54,15,34,6,78,6,27]);
 
 //function d(){
 //    minarr=[];
