@@ -1,17 +1,17 @@
 //Given an array of integers your solution should find the smallest integer.
 
-//  function findSmallestInt(args) {
-//    args=[23,54,1,34,6,78,6,2];
-//      smallest=0;
-//  for (i=0; i<args.length; i++){
-//       if (args[i] < smallest) {
-//        smallest = args[i];
-//      }
-//  }
-//  document.write(smallest);
-//  }
-//
-//findSmallestInt(args);
+  function findSmallestInt(min) {
+
+      smallest=0;
+  for (i=0; i<min.length; i++){
+       if (min[i] < smallest) {
+        smallest = min[i];
+      }
+  }
+  document.write(smallest);
+  }
+
+findSmallestInt([23,54,1,34,6,78,6,2]);
 
 //function d(){
 //    minarr=[];
