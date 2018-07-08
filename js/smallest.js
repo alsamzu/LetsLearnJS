@@ -20,14 +20,14 @@
 
 function d(){
     minarr=[];
-    for(i=0;i<3;i++){
+    for(i=0;i<6;i++){
         var num=minarr.push(prompt("Enter a number"));
 
     }
-     var c = Number.POSITIVE_INFINITY; ;
+     var c = Number.POSITIVE_INFINITY;
     for(j=0;j<minarr.length;j++){
 
-        if(minarr[j]<c){
+        if(minarr[j]<=c){
             c = minarr[j];
         }
     }
