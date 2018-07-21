@@ -24,13 +24,15 @@ function d(){
         var num=minarr.push(prompt("Enter a number"));
 
     }
-     var c = Number.POSITIVE_INFINITY;
-    for(j=0;j<minarr.length;j++){
+//     var c = Number.POSITIVE_INFINITY;
+//    for(j=0;j<minarr.length;j++){
+//
+//        if(minarr[j]<=c){
+//            c = minarr[j];
+//        }
+//    }
 
-        if(minarr[j]<=c){
-            c = minarr[j];
-        }
-    }
+    var c = Math.min(...minarr);
     alert("Your Entry is "+minarr+"\n"+" The Smallest number is "+c);
 
 
