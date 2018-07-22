@@ -36,6 +36,7 @@ function d(){
     alert("Your Entry is "+minarr+"\n"+" The Smallest number is "+c);
 
 
+
 }
 d();
 
