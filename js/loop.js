@@ -52,22 +52,20 @@
 //characters to separate lines. At each position of the grid there is either a space
 //or a "#" character. The characters should form a chess board.
 
-function chess(){
+function chess() {
     var y = 8;
     var z = "";
-    for( i=0; i<y; i++){
-     for( j=0; j<y; j++){
-        if((i+j) %2 ==0){
-            z += " ";
+    for (i = 0; i < y; i++) {
+        for (j = 0; j < y; j++) {
+            if ((i + j) % 2 == 0) {
+                z += " ";
+            } else {
+                z += "#";
+            }
         }
-         else{
-             z +="#";
-         }
-     }
-      z +="\n";
+        z += "\n";
     }
-   console.log(z);
+    console.log(z);
 }
 
 chess();
-
