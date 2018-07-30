@@ -1,39 +1,39 @@
 //Function to find prime fuctors of a number
-  function factors(){
-    
-  var integer = prompt("Enter a number to list its prime factors");
+function factors() {
 
-var primeArray = [];
+    var integer = prompt("Enter a number to list its prime factors");
 
-//find divisors starting with 2
+    var primeArray = [];
 
-for (i = 2; i < integer/2; i++) {
-  if (integer % i == 0) {
+    //find divisors starting with 2
 
-    //check if divisor is prime
-    for (var j = 2; j <= i / 2; j++) {
-      if (i % j == 0) {
-        isPrime = false;
-      } else {
-        isPrime = true;
-      }
+    for (i = 2; i < integer / 2; i++) {
+        if (integer % i == 0) {
+
+            //check if divisor is prime
+            for (var j = 2; j <= i / 2; j++) {
+                if (i % j == 0) {
+                    isPrime = false;
+                } else {
+                    isPrime = true;
+                }
+            }
+
+            //if divisor is prime
+
+            if (isPrime == true) {
+                //divide integer by prime factor & factor store in array primeArray
+                integer /= i
+                primeArray.push(i);
+            }
+        }
     }
 
-    //if divisor is prime
-
-    if (isPrime == true) {
-      //divide integer by prime factor & factor store in array primeArray
-      integer /= i
-      primeArray.push(i);
+    for (var k = 0; k < primeArray.length; k++) {
+        alert(primeArray[k]);
     }
-  }
-}
 
-for (var k = 0; k < primeArray.length; k++) {
-  alert(primeArray[k]);
-}
-  
-    
+
 }
 
 factors();
