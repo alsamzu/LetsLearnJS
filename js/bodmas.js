@@ -3,5 +3,3 @@ function bod() {
     alert(a);
 }
 bod();
-
-
