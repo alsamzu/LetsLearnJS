@@ -1,4 +1,3 @@
-
 //Function for alerting current DATE
 var currentDate = new Date();
 window.alert(currentDate);
