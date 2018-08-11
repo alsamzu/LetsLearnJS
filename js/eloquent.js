@@ -53,42 +53,42 @@
 //tria();
 
 //FIZZBUZZ function
-//function fizzbuzz(){
-//    for(i=1;i<=100;i++){
-//
-//         if(i%3==0 && i%5==0){
-//        document.write("    FizzBuzz ");
-//    }
-//        else if(i%5==0){
-//        document.write(" buzz ");
-//    }
-//        else if(i%3==0){
-//            document.write("fizz");
-//        }
-//        else{
-//            document.write(" "+i+" ");
-//        }
-//    }
-//
-//
-//
-//}
-//fizzbuzz();
+function fizzbuzz(){
+    for(i=1;i<=100;i++){
 
-//CHASEBOARD
-var size = 8;
-var board = "";
-for (i = 0; i < size; i++) {
-    for (j = 0; j < size; j++) {
-        if ((i + j) % 2 == 0) {
-            board += " ";
-        } else {
-            board += "#";
+         if(i%3==0 && i%5==0){
+        document.write("    FizzBuzz ");
+    }
+        else if(i%5==0){
+        document.write(" buzz ");
+    }
+        else if(i%3==0){
+            document.write("fizz");
+        }
+        else{
+            document.write(" "+i+" ");
         }
     }
-    board += "\n";
+
+
+
 }
-console.log(board);
+fizzbuzz();
+
+//CHASEBOARD
+//var size = 8;
+//var board = "";
+//for (i = 0; i < size; i++) {
+//    for (j = 0; j < size; j++) {
+//        if ((i + j) % 2 == 0) {
+//            board += " ";
+//        } else {
+//            board += "#";
+//        }
+//    }
+//    board += "\n";
+//}
+//console.log(board);
 //Write a function min that takes two arguments and returns their minimum.
 //function mina(x,y){
 ////    if(x<y){
@@ -100,16 +100,16 @@ console.log(board);
 //    Mayh(x,y);
 //}
 //document.write(mina(34,65));
-console.log(Math.min(31, 5));
+//console.log(Math.min(31, 5));
 //Define a recursive function isEven corresponding to this description. The function should accept a single parameter (a positive, whole number) and return a Boolean.
-function isEven(x) {
-    if ((x - 2) % 2 == 0) {
-        console.log(true);
-    } else {
-        console.log(false);
-    }
-}
-isEven(1);
+//function isEven(x) {
+//    if ((x - 2) % 2 == 0) {
+//        console.log(true);
+//    } else {
+//        console.log(false);
+//    }
+//}
+//isEven(1);
 //Write a function countBs that takes a string as its only argument and returns a number that indicates how many uppercase “B” characters there are in the string.
 //function countBs (x){
 //    var c = 0;
@@ -121,21 +121,21 @@ isEven(1);
 //    document.write(c);
 //}
 //countBs("Because I Bought a Brunchy Buger");
-function countChar(string, ch) {
-    let counted = 0;
-    for (let i = 0; i < string.length; i++) {
-        if (string[i] == ch) {
-            counted += 1;
-        }
-    }
-    return counted;
-}
-
-function countBs(string) {
-    return countChar(string, "B");
-}
-
-console.log(countBs("BBC"));
-// → 2
-console.log(countChar("kakkerlak", "k"));
-// → 4
+//function countChar(string, ch) {
+//    let counted = 0;
+//    for (let i = 0; i < string.length; i++) {
+//        if (string[i] == ch) {
+//            counted += 1;
+//        }
+//    }
+//    return counted;
+//}
+//
+//function countBs(string) {
+//    return countChar(string, "B");
+//}
+//
+//console.log(countBs("BBC"));
+//// → 2
+//console.log(countChar("kakkerlak", "k"));
+//// → 4
