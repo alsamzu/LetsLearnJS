@@ -1,4 +1,4 @@
-//Function to find prime fuctors of a number
+//JS Function to find prime fuctors of a number
 function factors() {
 
     var integer = prompt("Enter a number to list its prime factors");
