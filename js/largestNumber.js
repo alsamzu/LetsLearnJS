@@ -1,4 +1,3 @@
-
 //function maxNum(){
 //    maxArr=[];
 //    for(i=0;i<3;i++){
@@ -31,21 +30,21 @@
 //    alert("You entered "+"\n"+a+"\n"+b+"\n"+c+"\n"+d+"\n"+e+"\n"+"The largest number is "+f);
 //}
 //maX();
-function d(){
-    maxarr=[];
-    for(i=0;i<3;i++){
-        var num=maxarr.push(prompt("Enter a number"));
-        
-    }
-     var c = 0;
-    for(j=0;j<maxarr.length;j++){
+function d() {
+    maxarr = [];
+    for (i = 0; i < 3; i++) {
+        var num = maxarr.push(prompt("Enter a number"));
 
-        if(maxarr[j]>c){
+    }
+    var c = 0;
+    for (j = 0; j < maxarr.length; j++) {
+
+        if (maxarr[j] > c) {
             c = maxarr[j];
         }
     }
-    alert("Your Entry is "+maxarr+"\n"+" The Largest number is "+c);
+    alert("Your Entry is " + maxarr + "\n" + " The Largest number is " + c);
 
-    
+
 }
 d();
