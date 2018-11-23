@@ -14,7 +14,7 @@ alert("Welcome to our system\n 1.Check Balance\n 2.Withdrawal\n 3.Deposit\n");
             alert("you have insufficient amount");
         }
         else if(amount<=balance){
-            alert("you have withdrawn " + amount);
+            alert("You have withdrawn " + amount);
         }
     }
     else if(proceed==3){
