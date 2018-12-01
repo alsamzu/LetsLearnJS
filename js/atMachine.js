@@ -6,7 +6,7 @@ function atm() {
             balance == 20000;
             var proceed = prompt("Enter the number");
             if (proceed == 1) {
-                alert("your balance is " + balance);
+                alert("Your balance is " + balance);
             } else if (proceed == 2) {
                 amount = prompt("Enter amount");
                 if (amount > balance) {
