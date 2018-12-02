@@ -1,4 +1,4 @@
-//BINARY SEARCH EXAMPLE
+//BINARY SEARCH js EXAMPLE
 function findIndex(values, target) {
     return binarySearch(values, target, 0, values.length - 1);
 };
