@@ -7,7 +7,7 @@
 	}
 
 	function make_deposit() {
-		var deposit = parseFloat(prompt('How much would you like to deposit?'));
+		var deposit = parseFloat(prompt('Plase enter amount to deposit?'));
 		if (isNaN(deposit) || deposit === '') {
 			alert('Error: please enter a number!');
 			make_deposit();
