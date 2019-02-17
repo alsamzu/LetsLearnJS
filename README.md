@@ -1,3 +1,3 @@
 # LetsLearnJS
-Simple JavaScript programs for beginners.
+This are simple JavaScript programs for beginners.
 
